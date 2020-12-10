@@ -15,7 +15,7 @@ def drawUB():
 	'''Draw the upper banner'''
 	# read in data
 	LB = pd.read_csv('data/upper_banner.csv',
-					 header=None)
+					 header="Marquette rocks!")
 	x, y = list(LB[0]), list(LB[1])
 	x.append(x[0])
 	y.append(y[0])
