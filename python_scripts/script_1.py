@@ -22,8 +22,8 @@ def drawU():
 	y.append(y[0])
 
 	# plot data
-	ax.fill(x, y, color = 'black')
-	ax.plot(x, y, color = 'black', linewidth = 2)
+	ax.fill(x, y, color = 'green')
+	ax.plot(x, y, color = 'green', linewidth = 2)
 
 ## Solution ----
 # def drawU():
